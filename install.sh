@@ -10,9 +10,9 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/Kalua/Kaliayt.py",
+    "postStartCommand": "REPO_NAME=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/Thala/Kaliayt.py",
     "customizations": {
-        "vscode": {
+        "vscode": {ok 
             "settings": {
                 "python.pythonPath": "/usr/local/bin/python"
             },
